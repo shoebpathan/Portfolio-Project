@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoeb's Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/3f52465ee9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./img/logo.png" alt="Logo" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, My name is <span class="purple">Shoeb</span></h1>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="git-resume-button">
+                    <button class="btn-download">Download Resume</button>
+                    <button class="btn-download">Vistis Github</button>
+                </div>
+                <div class="header-social-icons">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------------skill-social-icons----------------- -->
+        <div id="skils-block">
+            <h3><span id="skill-year">2.5</span> YEARS OF EXPERIENCE</h3>
+            <h3><span id="skill-year">12</span> PROJECTS COMPLETED</h3>
+            <div class="skill-social-icons">
+                <a href="#"><i class="fa-brands fa-square-js"></i></a>
+                <a href="#"><i class="fa-brands fa-html5"></i></a>
+                <a href="#"><i class="fa-brands fa-css3-alt"></i></a>
+                <a href="#"><i class="fa-brands fa-react"></i></a>
+                <a href="#"><i class="fa-brands fa-node-js"></i></a>
+                <a href="#"><i class="fa-solid fa-database"></i></a>
+                <a href="#"><i class="fa-brands fa-git"></i></a>
+                <a href="#"><i class="fa-brands fa-linux"></i></a>
+                <a href="#"><i class="fa-brands fa-aws"></i></a>
+                <a href="#"></a>
+            </div>
+        </div>
+        <!-- ----------------------------skills-social-icons-end------------------------ -->
+    </div>
+    <!-- -------------about------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./img/about-me.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>With 3+ years of experience in the industry, I have honed my skills in HTML, CSS, and JavaScript,
+                        keeping pace with the latest trends and frameworks to deliver cutting-edge solutions. Whether
+                        it's building responsive web applications, optimizing performance, or troubleshooting intricate
+                        UI/UX challenges, I'm committed to delivering high-quality results that exceed expectations.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experince')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Educations</p>
+                    </div>
+                    <!-- --------------Skills--------------- -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <div class="icon-grid">
+                            <div class="icon-row">
+                                <img src="./img/javascript.webp" alt="Icon 1">
+                                <img src="./img/html.webp" alt="Icon 2">
+                                <img src="./img/css.webp" alt="Icon 3">
+                                <img src="./img/reactjs.webp" alt="Icon 4">
+                                <img src="./img/node.webp" alt="Icon 5">
+                                <img src="./img/linux.webp" alt="Icon 6">
+                            </div>
+                            <div class="icon-row">
+                                <img src="./img/aws.webp" alt="Icon 7">
+                                <img src="./img/file_type_vscode.svg" alt="Icon 8">
+                                <img src="./img/figma.webp" alt="Icon 9">
+                                <img src="./img/photoshop.webp" alt="Icon 10">
+                                <img src="./img/illustrator.webp" alt="Icon 10">
+                                <img src="./img/git.webp" alt="Icon 9">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ----------------skills end-------------- -->
+                    <!-- -------------Experience------------ -->
+                    <div class="tab-contents" id="experince">
+                        <ul>
+                            <li><span>2021 - Current</span> MERN Stack Developer</li>
+                            <li><span>2017 - 2021</span> Graphics Designer @ <span>FutureApplications Technologies Pvt.
+                                    Ltd.</span></li>
+                            <li><span>2014 - 2017</span> Freelancer</li>
+                            <li><span>2012 - 2014</span> Web Designer @ <span>Affinity Express Pvt. Ltd.</span></li>
+                        </ul>
+                    </div>
+                    <!-- ----------------Experience end------------------ -->
+                    <!-- --------------------Education---------------- -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2011</span> A.D.W.D (Advanced Diploma in Web Designing)</li>
+                            <p>PAI International Learning Solutions, Pune</p>
+                            <li><span>2010</span> B.C.A (Bachelor of Computer Applications)</li>
+                            <li><span>2008</span> H.S.C</li>
+                            <li><span>2006</span> S.S.C</li>
+                        </ul>
+                    </div>
+                    <!-- --------------------Education End------------------>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------services---------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>A bad website is like a flat tire, it won’t take you anywhere.
+                        In today’s digital world, your website is your handshake with the world. We'll designs websites
+                        that not only captivate but convert, driving real results for your business.</p><br>
+                    <p>Let’s build your online growth engine.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <!-- <i class="fa-brands fa-html5"></i> -->
+                    <h2>Web Development</h2>
+                    <p>Web development refers to the design, development, and maintenance of websites. This includes
+                        aspects such as web design, web publishing, web design, and database management. It is the
+                        development of applications that run on the Internet, that is on networks.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <h2>Graphics Design</h2>
+                    <p>Our array of services includes logo design, branding, web designing and development, digital
+                        marketing, SEO. Through a combination of creativity and expertise, we are capable of enhancing
+                        your visibility, multiplying your prospects and turning your fortunes, almost immediately!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------portfolio----------------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./img/work1.jpg">
+                    <div class="layer">
+                        <h3>Social Media Platform</h3>
+                        <p>Sharing of ideas and information among their users...</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./img/work2.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping Portal</h3>
+                        <p>A platform where users can browse and purchase products...</p>
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./img/work3.jpg">
+                    <div class="layer">
+                        <h3>Attendance Management</h3>
+                        <p>The process of tracking and managing the presence and...</p>
+                        <a href="#"><i class="fa-solid fa-clipboard-user"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -------------------------contact-------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <div class="skill-social-icons">
+                        <a href="#"><i class="fa-solid fa-paper-plane"></i></a> mr.shoebpathan@gmail.com <br>
+                        <a href="#"><i class="fa-solid fa-square-phone"></i></a> +91 9921 797 333
+                    </div>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="#" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="John@xyz.com" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Send</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>2024 Copyright <span>&copy;</span> Shoeb's Portfolio.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <form name="submit-to-google-sheet">
+        
+    </form>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxxanDwz5P6NdWrQ9RvTkKwc_ce_xdNyvU16eo0m8XQR59EJc0WpXgxzwhmJYo8CPON_A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer', 'Graphics Designer', 'MERN Stack Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
