@@ -52,6 +52,11 @@ hr {
     background: rgb(12, 18, 176);
 }
 
+.git-resume-button a{
+    text-decoration: none;
+    color: white;
+}
+
 .header-text .purple {
     color: #0c12af;
 }
@@ -70,7 +75,7 @@ nav {
 }
 
 .logo {
-    width: 30%;
+    width: 50%;
 }
 
 nav ul li {
