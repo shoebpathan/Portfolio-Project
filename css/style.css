@@ -517,3 +517,68 @@ form .btn2 {
 }
 
 /* -------------------end------------------------ */
+
+/* Adjustments for smaller screens */
+@media only screen and (max-width: 768px) {
+    .logo {
+        width: 50%; /* Adjust size of the logo */
+    }
+
+    .header-text {
+        font-size: 24px; /* Decrease font size for header text */
+        text-align: center; /* Center align header text */
+        margin-top: 10%; /* Adjust margin for smaller screens */
+    }
+
+    .header-text h1 {
+        font-size: 40px; /* Decrease font size for main heading */
+    }
+
+    .git-resume-button .btn-download {
+        font-size: 16px; /* Decrease font size for buttons */
+    }
+
+    .header-social-icons {
+        text-align: center; /* Center align social icons */
+        margin-top: 10px;
+    }
+
+    #skils-block {
+        flex-direction: column; /* Display skills block items in column on smaller screens */
+        align-items: center; /* Center align items */
+        text-align: center; /* Center align text */
+        padding: 20px;
+    }
+
+    .skill-social-icons {
+        margin-top: 20px; /* Adjust margin */
+    }
+
+    .about-col-1,
+    .about-col-2 {
+        flex-basis: 100%; /* Full width for about columns on smaller screens */
+        margin-bottom: 30px;
+    }
+
+    .services-list div {
+        padding: 20px; /* Adjust padding for services list items */
+        text-align: center; /* Center align text */
+    }
+
+    .work-list {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust grid for projects */
+        grid-gap: 20px; /* Reduce gap between project items */
+    }
+
+    .contact-left,
+    .contact-right {
+        flex-basis: 100%; /* Full width for contact columns on smaller screens */
+    }
+
+    form .btn2 {
+        width: 100%; /* Full width for form buttons */
+    }
+}
+
+/* Your existing CSS styles (from your provided code) */
+/* ... */
