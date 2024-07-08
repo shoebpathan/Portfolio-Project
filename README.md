@@ -35,7 +35,7 @@ a. Web browser (Chrome, Firefox, Safari, etc.)
 
 Installation
 1. Clone the repository:
-2. git clone https://github.com/your-username/portfolio-website.git
+2. git clone https://github.com/shoebpathan/shoebpathan.github.io.git
 
 Navigate into the project directory:
 3. cd portfolio-website
