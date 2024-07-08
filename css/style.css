@@ -21,7 +21,7 @@ hr {
     border: 0;
     background-color: #ffdd03;
     height: 0.1px;
-    /* margin: 40px 84px; */
+    margin: 40px 155px;
 }
 
 #header {
@@ -55,6 +55,7 @@ hr {
 .git-resume-button a{
     text-decoration: none;
     color: white;
+    font-size: 18px;
 }
 
 .header-text .purple {
