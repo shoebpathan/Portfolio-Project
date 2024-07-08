@@ -20,9 +20,9 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url("./img/bg-image.jpg");
+    background-image: url("/img/bg-image.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center center;
 }
 
 #element {
@@ -42,13 +42,11 @@ body {
 }
 
 .git-resume-button .btn-download:hover {
-    /* background-color: #0c12af; */
     background: rgb(12, 18, 176);
 }
 
 .header-text .purple {
     color: #0c12af;
-    /* color: #fc4560; */
 }
 
 .container {
@@ -106,10 +104,6 @@ nav ul li a:hover::after {
     margin-top: 20px;
 }
 
-/* 
-.header-text h1 span {
-    color: #0c12af;
-} */
 
 /* --------------------social icons header start--------------- */
 
@@ -128,7 +122,6 @@ nav ul li a:hover::after {
 }
 
 .header-social-icons a:hover {
-    /* color: #0c12af; */
     color: #ffde02;
     transform: translateY(-5px);
 }
@@ -139,7 +132,6 @@ nav ul li a:hover::after {
 
 /* -----------------------skills block end------------------- */
 #skils-block {
-    /* background-color: rgb(37, 1, 4); */
     background: rgb(12, 18, 176);
     display: flex;
     justify-content: space-between;
@@ -186,7 +178,6 @@ nav ul li a:hover::after {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* margin-left: 20px; */
 }
 
 .icon-row {
@@ -290,8 +281,6 @@ nav ul li a:hover::after {
 }
 
 
-
-
 /* -----------------services---------------- */
 #services {
     padding: 50px 0;
@@ -369,7 +358,6 @@ nav ul li a:hover::after {
     width: 100%;
     height: 0;
     background: linear-gradient(rgba(0, 0, 0, 0.6), #0c12af);
-    /* background: linear-gradient(rgba(0, 0, 0, 0.6), #ffde02); */
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -500,14 +488,11 @@ form .btn2 {
     width: 100%;
     text-align: center;
     padding: 20px 0;
-    /* background: rgba(255, 222, 2, 1); */
     background-color: #0c12af;
     font-weight: 500;
-    /* margin-top: 20px; */
 }
 
 .copyright span {
-    /* color: #0c12af; */
     color: #fff;
 }
 
