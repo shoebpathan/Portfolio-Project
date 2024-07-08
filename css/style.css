@@ -17,6 +17,13 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+hr {
+    border: 0;
+    background-color: #ffdd03;
+    height: 0.1px;
+    /* margin: 40px 84px; */
+}
+
 #header {
     width: 100%;
     height: 100vh;
@@ -286,6 +293,13 @@ nav ul li a:hover::after {
     padding: 50px 0;
 }
 
+.myservices-sub-title {
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    padding-left: 7.7%;
+}
+
 .services-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -332,6 +346,13 @@ nav ul li a:hover::after {
 /* ----------------Prjoects--------------------- */
 #projects {
     padding: 50px 0;
+}
+
+.project-sub-title {
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    padding-left: 7.7%;
 }
 
 .work-list {
@@ -420,6 +441,13 @@ nav ul li a:hover::after {
 /* --------------contact---------------- */
 .contact-left {
     flex-basis: 35%;
+}
+
+.contact-sub-title {
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    padding-left: 7.7%;
 }
 
 .contact-right {
