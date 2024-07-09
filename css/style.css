@@ -196,13 +196,13 @@ nav ul li a:hover::after {
 .icon-row {
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .icon-row img {
     width: 50px;
     height: auto;
-    margin-right: 80px;
+    margin-right: 40px;
     transition: transform 0.5s;
 }
 
