@@ -146,6 +146,7 @@ nav ul li a:hover::after {
     flex-wrap: wrap;
     color: white;
     padding: 10px;
+    margin-top: 4.6%;
 }
 
 #skils-block h3 {
